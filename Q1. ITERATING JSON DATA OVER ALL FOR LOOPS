@@ -1,0 +1,69 @@
+
+      "ITERATING JSON DATA OVER ALL FOR LOOPS"
+	  
+	  
+var obj = [
+  { person: "Name 1", age: "2", company: "GUVI" },
+  { person: "Name 2", age: "5", company: "GUVI geek" },
+  { person: "Name 3", age: "8", company: "GUVI geek network" },
+];
+
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+
+   //FOR LOOP
+   
+for(let i=0;i<obj.length;i++){
+    console.log(obj[i]);
+}
+   OUTPUT :   
+       { person: 'Name 1', age: '2', company: 'GUVI' }
+       { person: 'Name 2', age: '5', company: 'GUVI geek' }
+       { person: 'Name 3', age: '8', company: 'GUVI geek network' }
+	   
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X	   
+	   
+   //FOR-IN LOOP
+   
+for(let i in obj){
+    console.log(obj[i]);
+}
+   OUTPUT :
+        { person: 'Name 1', age: '2', company: 'GUVI' }
+        { person: 'Name 2', age: '5', company: 'GUVI geek' }
+        { person: 'Name 3', age: '8', company: 'GUVI geek network' }
+		 
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X		 
+		  
+   //FOR-OF LOOP
+   
+for(let i of obj){
+    console.log(i);
+}
+   OUTPUT : 
+       { person: 'Name 1', age: '2', company: 'GUVI' }
+       { person: 'Name 2', age: '5', company: 'GUVI geek' }
+       { person: 'Name 3', age: '8', company: 'GUVI geek network' }
+	   
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+	   
+   //FOR-EACH LOOP (ES5 FUNCTION)
+
+obj.forEach(function(i){ console.log(i)});
+
+    OUTPUT : 
+        { person: 'Name 1', age: '2', company: 'GUVI' }
+        { person: 'Name 2', age: '5', company: 'GUVI geek' }
+        { person: 'Name 3', age: '8', company: 'GUVI geek network' }
+
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+		
+   //FOR-EACH LOOP (ES6 ARROW FUNCTION)
+   
+obj.forEach(i=>console.log(i));
+
+    OUTPUT :
+        { person: 'Name 1', age: '2', company: 'GUVI' }
+        { person: 'Name 2', age: '5', company: 'GUVI geek' }
+        { person: 'Name 3', age: '8', company: 'GUVI geek network' }
+		
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X

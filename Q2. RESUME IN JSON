@@ -1,0 +1,92 @@
+         
+		         "RESUME IN JSON"
+		
+let RESUME = {
+    'NAME' : 'VIGNESHWAR R V',
+    'ROLE' : 'Enthusiastic learner',
+    'OBJECTIVE' : 'Ever-Learning FULL STACK DEVELOPER',
+    'DOB' : '06-08-1999',
+    CONTACT : {'EMAIL' : 'vigneshwarrv666@gmail.com','PHONE' : '+919080306971'},
+    'SKILLS' : ['Quick learning','Deep thinking'],
+    'LANGUAGES' : {'NATIVE' : 'Tamil','FLUENT' : 'English'},
+    'HOBBIES' : ['Day Dreaming','Doing something completely Irrelevent(new)'],
+    'EDUCATION' : {'COLLEGE' : {
+                     'NAME' : 'INSTITUTE OF ROAD AND TRANSPORT TECHNOLOGY',
+                     'COURSE' : 'B.E - CIVIL ENGINEERING',
+                     'YEAR' : '2017-2021'},
+                   'SCHOOL' : [{
+                     'NAME' : 'VELAMMAL MATRIC HIGHER SECONDARY SCHOOL,KARUR',
+                     'COURSE' : 'HSC - MATHS BIOLOGY',
+                     'YEAR' : '2015-2017'},
+                   {
+                     'NAME' : 'SRI SWAMY MATRIC HIGHER SECONDARY SCHOOL,NAMAKKAL',
+                     'COURSE' : 'SSLC',
+                     'YEAR' : '2015' }]},
+    'Address' : {
+                 'DOOR NO.' : 'No.39',
+                 '1ST LINE' : 'M.G.R Nagar',
+                 '2ND LINE' : 'Seelanaikanpatti',
+                 'CITY' : 'Salem',
+                 'PINCODE' : 636201
+    }
+
+};
+
+console.log(RESUME);
+
+X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X
+
+              // EXECUTED IN MICROSOFT EDGE.
+  OUTPUT :  
+  
+ {NAME: 'VIGNESHWAR R V', ROLE: 'Enthusiastic learner', OBJECTIVE: 'Ever-Learning FULL STACK DEVELOPER', DOB: '06-08-1999', CONTACT: {…}, …}
+Address:
+  1ST LINE: "M.G.R Nagar"
+  2ND LINE: "Seelanaikanpatti"
+  CITY: "Salem"
+  DOOR NO.: "No.39"
+  PINCODE: 636201
+[[Prototype]]: Object
+CONTACT:
+  EMAIL: "vigneshwarrv666@gmail.com"
+  PHONE: "+919080306971"
+[[Prototype]]: Object
+DOB: "06-08-1999"
+EDUCATION:
+  COLLEGE:
+    COURSE: "B.E - CIVIL ENGINEERING"
+    NAME: "INSTITUTE OF ROAD AND TRANSPORT TECHNOLOGY"
+    YEAR: "2017-2021"
+[[Prototype]]: Object
+SCHOOL: Array(2)
+  0:
+   COURSE: "HSC - MATHS BIOLOGY"
+   NAME: "VELAMMAL MATRIC HIGHER SECONDARY SCHOOL,KARUR"
+   YEAR: "2015-2017"
+[[Prototype]]: Object
+  1:
+   COURSE: "SSLC"
+   NAME: "SRI SWAMY MATRIC HIGHER SECONDARY SCHOOL,NAMAKKAL"
+   YEAR: "2015"
+[[Prototype]]: Object
+length: 2
+[[Prototype]]: Array(0)
+[[Prototype]]: Object
+HOBBIES: Array(2)
+  0: "Day Dreaming"
+  1: "Doing something completely Irrelevent(new)"
+length: 2
+[[Prototype]]: Array(0)
+LANGUAGES:
+  FLUENT: "English"
+  NATIVE: "Tamil"
+[[Prototype]]: Object
+NAME: "VIGNESHWAR R V"
+OBJECTIVE: "Ever-Learning FULL STACK DEVELOPER"
+ROLE: "Enthusiastic learner"
+SKILLS: Array(2)
+  0: "Quick learning"
+  1: "Deep thinking"
+length: 2
+[[Prototype]]: Array(0)
+[[Prototype]]: Object
