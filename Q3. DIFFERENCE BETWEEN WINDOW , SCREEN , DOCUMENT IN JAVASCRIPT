@@ -1,0 +1,15 @@
+
+  "DIFFERENCE BETWEEN WINDOW , SCREEN , DOCUMENT IN JAVASCRIPT"
+  
+WINDOW 
+  
+   It is a global object which has number of properties and it is the first thing that is loaded in the browser while browsing.
+  
+SCREEN 
+
+   It is present inside the window object and can be accessed with only its name (ie screen) since window is a global object.
+   It contains some information regarding screen dimensions on which the browser displays the rendered contents.
+   
+DOCUMENT
+
+   Its also present in the window object and has information of contents that are rendered and displayed (ie DOM tree)
